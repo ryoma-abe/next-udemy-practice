@@ -1,4 +1,9 @@
-
+export async function generateMetadata({ params }: Params) {
+  const { id } = await params;
+  return {
+    title: `記事のIDが${id}のページです`,
+  };
+}
 
 type Params = {
   params: Promise<{
