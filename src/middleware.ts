@@ -1,3 +1,8 @@
-export function middleware() {
-  console.log("ミドルウェアのテスト");
+import { NextRequest, NextResponse } from "next/server";
+
+export function middleware(request: NextRequest) {
+  if (!request.nextUrl.pathname.includes(".")) {
+    console.log("ミドルウェアのテスト");
+  }
+  return NextResponse.next();
 }
