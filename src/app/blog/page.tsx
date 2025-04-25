@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ブログの一覧ページです",
+  description: "ブログの一覧ページですブログの一覧ページですブログの一覧ページです",
+};
+
 // ダミーデータ
 const articles = [
   { id: "1", title: "タイトル1" },
