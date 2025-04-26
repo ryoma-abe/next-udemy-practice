@@ -7,5 +7,5 @@ export async function submitContactForm(formData: FormData) {
   const email = formData.get("email");
 
   console.log({ name, email });
-  redirect("/contact/complete");
+  redirect("/contacts/complete");
 }

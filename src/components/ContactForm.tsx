@@ -1,10 +1,12 @@
 "use client";
 
+import { submitContactForm } from "@/lib/actions/contact";
+
 export default function ContactForm() {
   return (
     <div className="py-24 text-gray-600">
       <form
-        action=""
+        action={submitContactForm}
         className="max-w-xl mx-auto bg-white p-8 rounded-lg shadow"
       >
         <h2 className="text-2xl font-semibold mb-6">お問い合わせ</h2>
