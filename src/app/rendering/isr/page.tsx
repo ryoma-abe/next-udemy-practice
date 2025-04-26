@@ -12,7 +12,7 @@ export default async function SSGPage() {
   return (
     <div>
       ISR 10秒ごとにリロード:{timestamp}
-      <Image src={image} width={400} alt="" />
+      <Image src={image} width={400} height={400} alt="" />
     </div>
   );
 }
