@@ -9,7 +9,7 @@ export default async function SSGPage() {
   return (
     <div>
       SSG:ビルド時に生成され固定{timestamp}
-      <Image src={image} width={400} alt="" />
+      <Image src={image} width={400} height={400} alt="" />
     </div>
   );
 }

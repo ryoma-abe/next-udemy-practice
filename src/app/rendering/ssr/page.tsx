@@ -12,7 +12,7 @@ export default async function SSRPage() {
   return (
     <div>
       SSR:毎回リロード：{timestamp}
-      <Image src={image} width={400} alt="" />
+      <Image src={image} width={400} height={400} alt="" />
     </div>
   );
 }
