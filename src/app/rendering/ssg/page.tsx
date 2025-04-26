@@ -8,7 +8,7 @@ export default async function SSGPage() {
   const timestamp = new Date().toString();
   return (
     <div>
-      SSG:毎回リロード：{timestamp}
+      SSG:ビルド時に生成され固定{timestamp}
       <Image src={image} width={400} alt="" />
     </div>
   );
