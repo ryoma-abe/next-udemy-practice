@@ -1,4 +1,4 @@
-("use server");
+"use server";
 
 import { ContactSchema } from "@/validations/contact";
 import { redirect } from "next/navigation";
